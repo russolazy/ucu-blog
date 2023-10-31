@@ -119,8 +119,7 @@
 }
 
 .featured-news {
-    /* border: 1px solid red; */
-    height: 100vh;
+    border: 1px solid red;
     margin: 30px;
 }
 
@@ -140,6 +139,12 @@
     width: 70%;
 
     border-bottom: 1px solid grey;
+    transition: .3s ease;
+}
+
+.featured-cont:hover {
+    box-shadow: 0 0 30px grey;
+    border-radius: 10px;
 }
 
 .featured-cont .featured-thumbnail {
