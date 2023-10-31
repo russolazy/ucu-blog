@@ -7,6 +7,11 @@
     font-family: 'Poppins';
 }
 
+
+body {
+    overflow-x: hidden;
+}
+
 .header-bg {
     background-color: #333;
     height: 65px;
@@ -193,7 +198,7 @@
 }
 
 .events {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 30px;
     /* height: 300px; */
 }
@@ -212,7 +217,104 @@
 }
 
 .events .events-cont .events-card {
-    height: 250px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid black;
+    padding: 2em 1em;
 }
+
+.events .events-cont .events-card .events-thumbnail {
+    height: 100px;
+    overflow: hidden;
+
+}
+
+.events .events-cont .events-card .events-thumbnail img {
+    height: 100%;
+    width: 100%;
+}
+
+.events .events-cont .events-card .events-title {
+    height: 50px;
+    margin: 10px 0;
+}
+
+
+.events .events-cont .events-card .events-title p {
+    font-size: 10px;
+    color: #A10605;
+}
+
+.events .events-cont .events-card .events-title p:nth-child(2) {
+    font-size: 6px;
+    color: #777777;
+}
+
+.events .events-cont .events-card .events-info {
+    height: auto;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 10px;
+}
+
+.pagination div {
+    border: 1px solid grey;
+    padding: 6px;
+    font-size: 8px;
+}
+
+.footer {
+    background-color: #333;
+    height: 300px;
+}
+
+.footer .footer-logo {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: white;
+}
+
+.footer .footer-text p:nth-child(1) {
+    font-size: 10px;
+    line-height: 15px;
+} 
+
+.footer-details .footer-career {
+    /* background-color: red; */
+    padding: 1em;
+}
+
+.footer-details .footer-career p {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-details .footer-career div li {
+    list-style: none;
+}
+
+
+.footer-details .footer-career div li a {
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+
+
+.footer-details .footer-career div li a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-details {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-details .footer-contact {}
