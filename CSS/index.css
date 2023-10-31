@@ -254,6 +254,10 @@ body {
     height: auto;
 }
 
+.events .events-cont .events-card .events-info p {
+    line-height: 20px;
+}
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -270,7 +274,7 @@ body {
 
 .footer {
     background-color: #333;
-    height: 300px;
+    /* height: 300px; */
 }
 
 .footer .footer-logo {
@@ -317,4 +321,53 @@ body {
     gap: 1em;
 }
 
-.footer-details .footer-contact {}
+.footer-newsletter {
+    padding: 1em;
+}
+
+.footer-newsletter .newsletter-header {
+    color: white;
+}
+
+.footer-newsletter .newsletter-header h1 {
+    font-size: 12px;
+}
+
+.footer-newsletter .newsletter-input {
+    margin-top: 10px;
+    /* background-color: red; */
+
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.footer-newsletter .newsletter-input input::placeholder {
+    font-size: 10px;
+
+}
+
+.footer-newsletter .newsletter-input button {
+    border: 0;
+    background-color: #FFC600;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 70px;
+    height: 22px;
+    border-radius: 2px;
+}
+
+.credits {
+    height: auto;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10px;
+}
+
+.credits p {
+    font-size: 4px;
+    color: white;
+}
