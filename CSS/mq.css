@@ -164,6 +164,27 @@
         grid-template-columns: 1fr 200px;
         column-gap: 1em;
     }
+
+    .about-banner {
+        height: 300px;
+    }
+
+    .about-banner .about {
+        top: 10%;
+    }
+
+    .about-banner .cards {
+        flex-direction: row;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .about-banner .cards .card {
+        background-color: white;
+        box-shadow: none;
+    }
 }
 
 @media screen and (min-width: 996px) {
