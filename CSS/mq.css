@@ -3,11 +3,6 @@
 /* main */
 
 
-@media screen and (min-width: 320px) {
-    .bloggy .blog-title .p1 {
-        font-size: 10px;
-    }
-}
 
 @media screen and (min-width: 530px) {
     .events .events-grid {
@@ -16,7 +11,82 @@
         transition: .3s ease;
     }
 
+    .bloggy .blog-title .p1{
+        font-size: 50x;
+    }
 
+    
+}
+
+@media screen and (min-width: 600px) {
+    * {
+        transition: .3s ease;
+    }
+    .admission-details .admission-info .form-1, .form-2, .form-3, .form-4, p {
+        font-size: 12px;
+        
+    }
+
+
+    .admission-details .admission-info .form-1, .form-2, .form-3, .form-4, li {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-text {
+       font-size: 30px;
+    }
+
+    .admission-details .admission-info .admission-header {
+        font-size: 14px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-1 p {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-1 li {
+        font-size: 12px;
+    }
+
+
+    .admission-details .admission-info .admission-forms .form-3 p {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-3 li {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-2 li {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-2 p {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info .admission-forms .form-4 p {
+        font-size: 12px;
+    }
+
+    .admission-details .admission-info {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .admission-details .admission-info .admission-text p{
+        font-size: 12px;
+    }
+
+    .admission-banner {
+        font-size: 40px;
+       height: 300px;
+    }
+
+    .admission-banner .admission {
+        top: 40%;
+    }
 }
 
 @media screen and (min-width: 682px) {
@@ -76,7 +146,24 @@
         transition: .3s ease;
     }
 
-   
+    .gallery-card-1 {
+        padding: 5em;
+    }
+
+    .gallery-card-1 .card-2 {
+        grid-template-columns: 1fr 300px 1fr;
+        column-gap: 1em;
+    }
+
+    .gallery-card-1 .card-3 {
+        grid-template-columns: 200px 1fr 200px;
+        column-gap: 1em;
+    }
+
+    .gallery-card-1 .card-4 {
+        grid-template-columns: 1fr 200px;
+        column-gap: 1em;
+    }
 }
 
 @media screen and (min-width: 996px) {
@@ -178,6 +265,7 @@
 
     .blog-content .blog-content-2, .blog-content-4, .blog-content-5 {
         width: 600px;
+
     }
 
     .blog-content .blog-content-1, .blog-content-3, .blog-content-6 {
@@ -193,13 +281,33 @@
     }
 
     .blog-cont {
+        margin-top: 60px;
         display: flex;
-        justify-content: center;
-        gap: 5em;
+        justify-content: space-between;
+        /* background-color: #333; */
+    }
+
+    .blog-cont .bloggy {
+        /* background-color: red; */
+        margin-left: 100px;
+    }
+
+    .blog-cont .pop-blog {
+        margin-left: 100px;
     }
 
     .popular-blog-content .p1{
-        font-size: 1rem;
+        font-size: 15px;
+    }
+
+    .popular-blog-content .p{
+        font-size: 14px;
+    }
+
+    .popular-blog .popular-blog-header p {
+        font-size: 15px;
     }
 }
+
+
 

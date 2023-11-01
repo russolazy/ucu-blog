@@ -130,6 +130,7 @@ html {
     margin: 30px;
 }
 
+
 .blog-cont .blog-title {
     margin-bottom: 16px;
 }
@@ -161,6 +162,12 @@ html {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.popular-blog {
+    /* background-color: red; */
+    width: 60%;
+  
 }
 
 .popular-blog .popular-blog-header {

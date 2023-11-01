@@ -1,0 +1,220 @@
+@import url('https://fonts.cdnfonts.com/css/uni-sans-regular');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-bg {
+    background-color: #333;
+    height: 65px;
+    position: relative;
+}
+
+.header-image {
+    height: inherit;
+    width: inherit;
+    background-color: #6CC1FF;
+}
+
+.header-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.header-text {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1{
+    font-size: 12px;
+    font-family: 'Uni Sans Demo';
+    color: #A10605;
+    text-align: center;
+}
+
+.header-text h1 span {
+    color: #050DA1;
+}
+
+.nav {
+    height: 90px;
+    /* background-color: #333; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.nav .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: .2em;
+}
+
+.nav .nav-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav .nav-logo h1,p {
+    font-size: 6px;
+}
+
+.nav .nav-logo h1 {
+    width: 100px;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.nav .nav-logo p{
+    color: #777777;
+}
+
+.nav .nav-menu {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+
+.nav .nav-menu .rect {
+    height: 2px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #343434;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.admission-banner {
+    height: 200px;
+    overflow: hidden;
+
+    position: relative;
+    background-color: black;
+}
+
+.admission-banner img {
+    opacity: .5;
+}
+
+.admission-banner .admission {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+    color: white;
+}
+
+.admission-details {
+    /* border: 1px solid red; */
+    /* height: 200px; */
+    margin: 40px;
+}
+
+.admission-details .admission-info {
+    font-size: 8px;
+}
+
+.admission-details .admission-info .admission-header{
+    background-color: #F4F4F4;
+    padding: 1em;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.admission-details .admission-info .admission-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admission-details .admission-info .admission-forms p {
+    font-size: 8px;
+}
+
+.admission-details .admission-info .admission-forms li{
+    margin-left: 20px;
+    font-size: 6px;
+}
+
+.admission-details .form-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.admission-details .form-2 p {
+    font-size: 8px;
+}
+
+.admission-text, .admission-forms {
+    margin-left: 30px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, rgb(222, 101, 101), yellow);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+  
