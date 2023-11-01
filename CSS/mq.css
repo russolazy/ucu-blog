@@ -2,6 +2,13 @@
 
 /* main */
 
+
+@media screen and (min-width: 320px) {
+    .bloggy .blog-title .p1 {
+        font-size: 10px;
+    }
+}
+
 @media screen and (min-width: 530px) {
     .events .events-grid {
         grid-template-columns: repeat(3, 1fr);
