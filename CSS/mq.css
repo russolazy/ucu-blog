@@ -8,6 +8,8 @@
         column-gap: 20px;
         transition: .3s ease;
     }
+
+
 }
 
 @media screen and (min-width: 682px) {
@@ -92,8 +94,8 @@
         display: flex;
         border: none;
         justify-content: center;
-        align-items: flex-start;
-        padding: 1em;
+        align-items: center;
+   
 
         cursor: pointer;
     }
@@ -151,6 +153,12 @@
         padding: 1em 3em;
     }
 
-    
+    .arrow-down {
+        display: block;
+    }
+
+    .featured-cont-row {
+        display: flex;
+    }
 }
 
