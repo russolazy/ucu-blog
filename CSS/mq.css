@@ -68,6 +68,25 @@
         font-size: 20px;
         transition: .3s ease;
     }
+
+
+    .blog-content .blog-content-2, .blog-content-4, .blog-content-5 {
+        width: 800px;
+    }
+
+    .blog-content .blog-content-1, .blog-content-3, .blog-content-6 {
+        width: 600px;
+    }
+
+    .blog-cont .blog-title {
+        width: 600px;
+    }
+
+    .blog-cont {
+        display: flex;
+        justify-content: center;
+        gap: 5em;
+    }
 }
 
 @media screen and (min-width: 996px) {

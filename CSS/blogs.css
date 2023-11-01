@@ -205,6 +205,111 @@ html {
 }
 
 
+.footer {
+    background-color: #333;
+    /* height: 300px; */
+}
+
+.footer .footer-logo {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: white;
+
+    vertical-align: top;
+}
+
+.footer .footer-text p:nth-child(1) {   
+    font-size: 10px;
+    line-height: 15px;
+} 
+
+.footer-details .footer-career {
+    /* background-color: red; */
+    padding: 1em;
+}
+
+.footer-details .footer-career p {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-details .footer-career div li {
+    list-style: none;
+}
+
+
+.footer-details .footer-career div li a {
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+
+
+.footer-details .footer-career div li a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-details {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-newsletter {
+    padding: 1em;
+}
+
+.footer-newsletter .newsletter-header {
+    color: white;
+}
+
+.footer-newsletter .newsletter-header h1 {
+    font-size: 12px;
+}
+
+.footer-newsletter .newsletter-input {
+    margin-top: 10px;
+    /* background-color: red; */
+
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.footer-newsletter .newsletter-input input {
+    padding: 3px;
+}
+
+.footer-newsletter .newsletter-input input::placeholder {
+    font-size: 10px;
+
+}
+
+.footer-newsletter .newsletter-input button {
+    border: 0;
+    background-color: #FFC600;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 70px;
+    height: 22px;
+    border-radius: 2px;
+}
+
+.credits {
+    height: auto;
+    background-color: red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10px;
+}
+
+.credits p {
+    font-size: 4px;
+    color: white;
+}
 
 
 
