@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header-bg {
     background-color: #333;
     height: 65px;
@@ -72,15 +76,6 @@ body {
 .nav .nav-logo img {
     height: 100%;
     width: 100%;
-}
-
-.nav .nav-logo .nav-logoCont {
-    /* background-color: red; */
-    
-}
-
-.nav .nav-logo .nav-text {
-    /* background-color: blue; */
 }
 
 .nav .nav-logo h1,p {
@@ -164,6 +159,11 @@ body {
     object-fit: cover;
 }
 
+.featured-information .featured-title {
+      margin-bottom: 10px;  
+}
+
+
 .featured-cont .featured-title {
     /* border: 1px solid red; */
     height: 30%;
@@ -214,6 +214,8 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 50px;
+    justify-content: center; 
+    align-items: center;
 }
 
 .events .events-cont .events-card {
@@ -283,9 +285,11 @@ body {
     align-items: center;
     padding: 1em;
     color: white;
+
+    vertical-align: top;
 }
 
-.footer .footer-text p:nth-child(1) {
+.footer .footer-text p:nth-child(1) {   
     font-size: 10px;
     line-height: 15px;
 } 
@@ -342,6 +346,10 @@ body {
     align-items: center;
 }
 
+.footer-newsletter .newsletter-input input {
+    padding: 3px;
+}
+
 .footer-newsletter .newsletter-input input::placeholder {
     font-size: 10px;
 
@@ -370,4 +378,62 @@ body {
 .credits p {
     font-size: 4px;
     color: white;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #343434;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, rgb(222, 101, 101), yellow);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  .arrow-down {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    animation: bounce .6s linear infinite alternate;
+  }
+
+  @keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(30px);
+    }
 }
